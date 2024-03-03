@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Website</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-background">
+      <h1>My Website</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="dropdown">
+      <select id="mobile-menu" onchange="location = this.value;">
+        <option value="#" selected>Menu</option>
+        <option value="home.html">Home</option>
+        <option value="about.html">About</option>
+        <option value="contact.html">Contact</option>
+      </select>
+    </div>
+  </nav>
+
+  <main>
+    <section class="block">Content Block 1</section>
+    <section class="block">Content Block 2</section>
+    <section class="block">Content Block 3</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
