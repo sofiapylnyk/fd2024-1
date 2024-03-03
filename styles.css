@@ -20,7 +20,7 @@ body {
     background-position: center;
     padding: 50px;
   }
-  
+
   nav {
     background-color: #555;
   }
@@ -55,6 +55,10 @@ body {
     display: none;
   }
 
+  .content {
+    margin: 0px 40px 50px 40px;
+
+  }
   button {
     background-color: #4CAF50;
     color: white;
