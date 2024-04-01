@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#result-container {
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#result-container h2 {
+    margin-top: 50px;
+}
+
+label {
+    margin-right: 10px;
+}

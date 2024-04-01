@@ -1,0 +1,51 @@
+{
+    "questions": [
+      {
+        "question": "Яка столиця України?",
+        "type": "choice",
+        "answers": ["Київ", "Львів", "Одеса", "Харків"],
+        "correct_answer": "Київ"
+      },
+      {
+        "question": "Скільки планет у сонячній системі?",
+        "type": "choice",
+        "answers": ["7", "8", "9", "10"],
+        "correct_answer": "8"
+      },
+      {
+        "question": "Який найбільший океан на Землі?",
+        "type": "choice",
+        "answers": ["Тихий", "Атлантичний", "Індійський", "Північний Льодовитий"],
+        "correct_answer": "Тихий"
+      },
+      {
+        "question": "Як називається столиця Франції?",
+        "type": "choice",
+        "answers": ["Лондон", "Париж", "Берлін", "Мадрид"],
+        "correct_answer": "Париж"
+      },
+      {
+        "question": "Хто написав 'Ромео і Джульєтта'?",
+        "type": "choice",
+        "answers": ["Вільям Шекспір", "Леонардо да Вінчі", "Мікеланджело", "Джордж Байрон"],
+        "correct_answer": "Вільям Шекспір"
+      },
+      {
+        "question": "Що зі списку є мовами програмування?",
+        "type": "multiple_choice",
+        "answers": ["Java", "English", "Python", "Spanish"],
+        "correct_answer": ["Java", "Python"]
+      },
+      {
+        "question": "Яка найвища гора у світі?",
+        "type": "text_entry",
+        "correct_answer": "Еверест"
+      },
+      {
+        "question": "Розрахуйте суму: 245 + 139",
+        "type": "numeric_entry",
+        "correct_answer": 384
+      }
+    ]
+  }
+  
