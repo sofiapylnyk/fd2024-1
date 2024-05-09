@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "testName": "Тест з WEB дизайну",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Вкажіть тег для блоку?",
+          "answers": [
+            { "answer": "a", "isCorrect": false },
+            { "answer": "div", "isCorrect": true },
+            { "answer": "img", "isCorrect": false },
+            { "answer": "p", "isCorrect": false }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Вкажіть тег для гіперпосилання?",
+          "answers": [
+            { "answer": "a", "isCorrect": true },
+            { "answer": "div", "isCorrect": false },
+            { "answer": "span", "isCorrect": false },
+            { "answer": "p", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "testName": "Тест з JavaScript",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Що поверне `typeof null`?",
+          "answers": [
+            { "answer": "object", "isCorrect": true },
+            { "answer": "null", "isCorrect": false },
+            { "answer": "undefined", "isCorrect": false },
+            { "answer": "boolean", "isCorrect": false }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Який метод використовується для видалення останнього елементу з масиву?",
+          "answers": [
+            { "answer": "pop", "isCorrect": true },
+            { "answer": "shift", "isCorrect": false },
+            { "answer": "push", "isCorrect": false },
+            { "answer": "unshift", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

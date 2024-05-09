@@ -1,0 +1,35 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Вкажіть тег для блоку?",
+        "answers": [
+          { "answer": "a", "isCorrect": false },
+          { "answer": "div", "isCorrect": true },
+          { "answer": "img", "isCorrect": false },
+          { "answer": "p", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Вкажіть тег для гіперпосилання?",
+        "answers": [
+          { "answer": "a", "isCorrect": true },
+          { "answer": "div", "isCorrect": false },
+          { "answer": "span", "isCorrect": false },
+          { "answer": "p", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Що поверне `typeof null`?",
+        "answers": [
+          { "answer": "object", "isCorrect": true },
+          { "answer": "null", "isCorrect": false },
+          { "answer": "undefined", "isCorrect": false },
+          { "answer": "boolean", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+  
